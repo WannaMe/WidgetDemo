@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <com.example.suqi.widgetdemo.CustomTitleView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:titleText="瞎画"
+        app:titleTextSize="16sp"/>
+
+    <com.example.suqi.widgetdemo.OverrideView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

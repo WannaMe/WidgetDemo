@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_top"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@color/colorAccent"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tv_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_top"
+        android:text="0"
+        android:textColor="#231F20"
+        android:textSize="22sp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tv_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_value"
+        android:layout_toEndOf="@+id/tv_value"
+        android:text="A"
+        android:textColor="#A5A8AD"
+        android:textSize="12sp" />
+    
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:layout_below="@+id/tv_value"
+        android:textColor="#A5A8AD"
+        android:text="当前电流"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
